@@ -1,0 +1,20 @@
+package If_Else;
+
+import java.util.Scanner;
+
+public class SidesOfTriangles {
+    static void main() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a: ");
+        int a = sc.nextInt();
+        System.out.print("Enter b: ");
+        int b = sc.nextInt();
+        System.out.print("Enter c: ");
+        int c = sc.nextInt();
+
+        if(a +b>c && b+c> a && c+ a >b){
+            System.out.println("a,b,c are the sides of a triangle");
+        }else System.out.println("Not a sides of triangle");
+    }
+}
