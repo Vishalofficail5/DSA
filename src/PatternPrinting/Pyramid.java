@@ -14,6 +14,8 @@ public class Pyramid {
 //            System.out.println();
 //        }
 
+//***************METHOD-2******************
+
         int nsp = user_input-1, nst = 1;
         for (int i=1; i<=user_input; i++){
             for (int j=1; j<=nsp; j++){
