@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.Scanner;
 public class Negative_of_array {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 public class Arrays_Basic {
     public static void main(String[] args) {
         // First method to represent arrays

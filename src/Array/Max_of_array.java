@@ -1,9 +1,9 @@
-package Arrays;
+package Array;
 import java.util.Scanner;
-public class Sum_of_array {
+public class Max_of_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter array size: ");
+        System.out.print("Enter size of array: ");
         int arr_size = sc.nextInt();
         int[] arr = new int[arr_size];
 
@@ -11,10 +11,11 @@ public class Sum_of_array {
             System.out.print("Enter array: ");
             arr[i] = sc.nextInt();
         }
-        int sum = 0;
-        for (int j=0; j<arr_size; j++){
-            sum += arr[j];
+        int max = arr[0];
+        for (int j=1; j<arr_size; j++){
+            if (arr[j]>max)
+                max = arr[j];
         }
-        System.out.print(sum);
+        System.out.print(max);
     }
 }

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.Scanner;
 public class Double_of_arrays {
     public static void main(String[] args) {
